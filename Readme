@@ -26,3 +26,6 @@ document.getElementById('mineSwipper').innerHTML=game.getTable();
 TO Do:
 
 Add animations
+
+Link to live sample:
+https://lilton03.github.io./
