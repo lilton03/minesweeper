@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../Js/MineSwipperModel.js"></script>
+    <script src="../Js/MineSwipperController.js"></script>
+    <script src="../Js/MineSwipperViewHandler.js"></script>
+    <script src="../Js/Objects/MineSwipperObjects.js"></script>
+</head>
+<body style="background-color:lightgray">
+<div style="text-align: center;">
+    <div  style="display: inline-block;position: relative" id="mineSwipper">
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    /*row,column,and number of mines*/
+    var game=new Game(9,9,10);
+    document.getElementById('mineSwipper').innerHTML=game.getTable();
+</script>
+</html>
